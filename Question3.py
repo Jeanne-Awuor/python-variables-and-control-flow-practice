@@ -9,6 +9,8 @@
 score1=float(input("Enter your score: "))
 
 def score_categorizer():
+    if score1 < 0 or score1 > 100:
+        print("Invalid score")
     if 100 <= score1 <= 90:
         print("A")
     elif 89 <= score1 <= 80:

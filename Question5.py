@@ -2,7 +2,9 @@
 #Python program that asks the user for their age
 # and tells them whether they are a minor,adult or senior
 #(under 18), an adult (18-65), or a senior (over 65).
+
 age=(float(input("Enter your age: ")))
+#function definition
 def age_checker():
     if age < 18:
         print("You are a MINOR!!")

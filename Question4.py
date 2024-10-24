@@ -11,12 +11,16 @@ operator = input("Enter the operation (+, -, *, /): ")
  #function definition
 def calculator(num1, num2, operator):
         if operator == "+":
+            return num1 + num2
             print(num1 + num2)
         elif operator == "-":
+            return num1 - num2
             print(num1 - num2)
         elif operator == "*":
+            return num1 * num2
             print(num1 * num2)
         elif operator == "/":
+            return num1 / num2
             print(num1/num2)
 
 #results

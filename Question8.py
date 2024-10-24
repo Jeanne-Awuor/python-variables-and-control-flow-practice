@@ -9,6 +9,7 @@ def day_checker(day):
 # lists are zero-indexed ,so subtraction by 1 is necessary
     if 1 <= day <= 7:
         print(f"This is {days_of_week[day - 1]}")
+        return days_of_week[day - 1]
     else:
         print("Invalid day! Please enter a number between 1 and 7.")
 
